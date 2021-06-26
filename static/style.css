@@ -20,31 +20,40 @@ header {
 .heading {
     font-family: Roboto;
     text-transform: uppercase;
-    letter-spacing: 3px;
-    font-weight: 400;
+    letter-spacing: 1px;
+    font-weight: 600;
     font-size: 250%;
     margin-top: 10px;
     margin-bottom: 10px;
     color: #000066;
+}
+
+#menu{
+    font-size: 110%;
+    list-style-type: none;
+    letter-spacing: 3px;
+    color: #000066;
+}
+
+#menu{
     line-height: 75px;
 }
 
-#navbar-nav {
+#menu li {
+    float: right;
     margin-right: 30px;
 }
 
-.nav-item {
-    font-family: Lato;
-    font-size: 110%;
-    list-style-type: none;
-    letter-spacing: 2px;
+#menu a {
+    text-decoration: none;
+    color: inherit;
 }
 
-.nav-link:hover{
+#menu a:hover{
     border-bottom: 1px solid #777777;
 }
 
-.active {
+.active{
     border-bottom: 1px solid #777777;
 }
 
@@ -52,5 +61,42 @@ header {
 
 /* Hero Image fixen komt later
 
+/*--------------------User Reviews*/
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #000066;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+
+p {
+    text-align: center;
+
+}
 
 
+/*--------------------Social Links*/
+
+footer{
+    height: 100px;
+}
+
+.social-links{
+    text-align: center;
+
+}
+
+.social-links li{
+    display: inline;
+}
+
+.social-links i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #000066;
+}
