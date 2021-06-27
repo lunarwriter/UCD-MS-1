@@ -1,14 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Lato:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Anton:400|Lato:100,200,300,400,500,600,700');
 
 /*--------------------Colors*/
 
 body {
     font-family: Lato;
     color: #4d4d4d;
-}
-
-.row {
-    background-color: #ffffff;
 }
 
 /*--------------------Heading*/
@@ -18,12 +14,11 @@ header {
 }
 
 .heading {
-    font-family: Roboto;
+    font-family: Anton;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 600;
     font-size: 250%;
-    margin-top: 10px;
     margin-bottom: 10px;
     color: #000066;
 }
@@ -59,16 +54,44 @@ header {
 
 /*--------------------Hero Image*/
 
-/* Hero Image fixen komt later
+/* Hero Image fixen komt later*/
+
+
+#cover-text, #cover-text h2 {
+    color: #ffffff;
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: Anton;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    width: 500px;
+    height: 150px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgb(255, 117, 26, .6);
+
+    bottom: 20px;
+    right: 150px;
+
+    position: absolute;
+
+}
+
 
 /*--------------------User Reviews*/
 
 h1 {
     text-transform: uppercase;
-    font-weight: 400;
+    font-family: Anton;
     color: #000066;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 20px;
 
 }
@@ -99,4 +122,31 @@ footer {
     margin: 1%;
     padding: 5%;
     color: #000066;
+}
+
+
+/*--------------------Contact Page */
+
+.join-text {
+    font-weight: 500;
+    text-align: center;
+    color: #000066;
+}
+
+form {
+    padding-right: 10rem;
+    padding-top: 50px;
+    padding-left: 10rem;
+    padding-bottom: 50px;
+    background-color: #e6e6e6;
+    background-image: url("static/images/pexels-victor-freitas-841130.jpg") no-repeat center center;
+}
+
+label {
+    color: #000066;
+    font-weight: 500;
+}
+
+.btn-primary {
+    background-color: #000066;
 }
