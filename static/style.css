@@ -54,8 +54,10 @@ header {
 
 /*--------------------Hero Image*/
 
-/* Hero Image fixen komt later*/
-
+#hero-outer{
+    overflow:hidden;
+    position: relative;
+}
 
 #cover-text, #cover-text h2 {
     color: #ffffff;
