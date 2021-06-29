@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Anton:400|Lato:100,200,300,400,500,600,700');
 
-/*--------------------Colors*/
+/*--------------------Colors */
 
 body {
     font-family: Lato;
     color: #4d4d4d;
 }
 
-/*--------------------Heading*/
+/*--------------------Heading */
 
 header {
     margin: 0;
@@ -24,7 +24,7 @@ header {
 }
 
 
-/*--------------------Navigation Bar*/
+/*--------------------Navigation Bar */
 
 .navbar-nav {
     font-family: Lato;
@@ -33,7 +33,8 @@ header {
     color: #000066;
 }
 
-/*--------------------Hero Image*/
+
+/*--------------------Hero Image */
 
 #hero-outer{
     overflow:hidden;
@@ -67,7 +68,7 @@ header {
 }
 
 
-/*--------------------User Reviews*/
+/*--------------------User Reviews */
 
 h1 {
     text-transform: uppercase;
@@ -99,7 +100,7 @@ h5 {
 }
 
 
-/*--------------------Social Links*/
+/*--------------------Social Links */
 
 footer {
     height: 85px;
@@ -143,7 +144,7 @@ label {
     font-weight: 500;
 }
 
-.btn-primary {
+.signup-button {
     background-color: #000066;
 }
 
@@ -162,4 +163,25 @@ label {
 .card-title {
     color: #000066;
     font-weight: 700;
+}
+
+/*--------------------Login Button */
+
+.login-button {
+    background-color: rgb(255, 117, 26);
+}
+
+.login-button:hover {
+    background-color: #e6e6e6;
+}
+
+
+/*--------------------Media Query for cover text */
+/*--------------------Media Query for cover text on tablet sized devices and smaller */
+
+@media screen and (max-width: 943px){
+    #cover-text {
+        display: none;
+    }
+
 }
