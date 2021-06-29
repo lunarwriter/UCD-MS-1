@@ -23,33 +23,14 @@ header {
     color: #000066;
 }
 
-#menu{
+
+/*--------------------Navigation Bar*/
+
+.navbar-nav {
+    font-family: Lato;
+    font-weight: 500;
     font-size: 110%;
-    list-style-type: none;
-    letter-spacing: 1px;
     color: #000066;
-}
-
-#menu{
-    line-height: 75px;
-}
-
-#menu li {
-    float: right;
-    margin-right: 30px;
-}
-
-#menu a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#menu a:hover{
-    border-bottom: 1px solid #777777;
-}
-
-.active{
-    border-bottom: 1px solid #777777;
 }
 
 /*--------------------Hero Image*/
