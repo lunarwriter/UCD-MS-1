@@ -15,7 +15,7 @@ Existing members that are already familiar with the procedures can log in and ke
 <br>
 
 ## User Experience (UX)
----
+
 
 <br>
 
@@ -53,7 +53,7 @@ Existing members that are already familiar with the procedures can log in and ke
 
 
 ## Features
----
+
 __Existing Features__
 
 * __Navigation Bar__
@@ -158,7 +158,6 @@ By adding this feature, users can attend the gym from their own home and stay as
 <br>
 
 ##  Technologies Used
----
 
 ### Languages Used
 
@@ -184,7 +183,7 @@ By adding this feature, users can attend the gym from their own home and stay as
 <br>
 
 ## Testing
----
+
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 * [W3C Markup Validator](https://validator.w3.org/ "markup-validator") - [Results](https://validator.w3.org/nu/#textarea "markup-validator-results")
@@ -193,5 +192,64 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 
 
+## Deployment
 
+__GitHub Pages__
+
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the GitHub [Repository](https://github.com/lunarwriter/UCD-MS-1 "github pages repository")
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu. 
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site [link](https://lunarwriter.github.io/UCD-MS-1/index.html "live project") in the "GitHub Pages" section.
+
+<br>
+
+__Forking the GitHub Repository__
+
+1. Log in to GitHub and locate the GitHub [Repository](https://github.com/lunarwriter/UCD-MS-1 "github pages repository")
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
+
+<br>
+
+__Making a Local Clone__
+
+1. Log in to GitHub and locate the GitHub [Repository](https://github.com/lunarwriter/UCD-MS-1 "github pages repository")
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash.
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied in Step 3.
+7. Press Enter. Your local clone will be created.
+
+<h2 align="center">
+<img src="docs/screenshots/git-clone-project.png" alt="clone project" style="max-width:100%;">
+</h2>
+
+<br>
+
+## Credits
+
+__Code__
+
+* The code structure for the project was inspired by the [Code Institute Mini Project: Love Running](https://github.com/Code-Institute-Solutions/Love-Running-Solutions "Love Running Mini Project") and the [Code Institute Mini Bootstrap Project](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4 "Mini Bootstrap Project") for aesthetic preferences.
+* [Bootstrap 4.3:](https://getbootstrap.com/docs/4.3/getting-started/introduction/ "Bootstrap4.3") Bootstrap was used to make the site responsive using the Grid, Form, Navbar and Cards components, as well as making the button elements interactive.
+
+<br>
+
+__Content__
+
+* The text for the user reviews was taken from [Eatsleepwander](https://eatsleepwander.com/gym-review-example/ "user review text credits")
+* The text and class names for the Classes page was taken from [Fitness365](https://fitness365.nl/locaties/amsterdam/groepslessen/ "classes page credits") translated from Dutch
+* ReadMe structure and general content taken from [this sample](https://github.com/Code-Institute-Solutions/SampleREADME#user-experience-ux "readme1 credits") and [this sample](https://github.com/Code-Institute-Solutions/readme-template "readme2 credits")
+
+<br>
+
+__Media__
+
+* The hero image and the user review images were taken from [Pexels](https://pexels.com/ "pexels credits")
+* The images for the classes were taken from [Unsplash](https://unsplash.com/s/photos/ "unsplash credits")
 
