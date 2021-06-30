@@ -70,7 +70,7 @@ header {
 
 /*--------------------User Reviews */
 
-h1 {
+h2 {
     text-transform: uppercase;
     font-family: Anton;
     color: #000066;
@@ -95,7 +95,7 @@ h5 {
     font-style: italic;
 }
 
-#user-reviews h1, h5 {
+#user-reviews h2, h5 {
     font-style: normal;
 }
 
@@ -173,6 +173,7 @@ label {
 
 .login-button:hover {
     background-color: #e6e6e6;
+    color: #000;
 }
 
 
