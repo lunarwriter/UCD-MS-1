@@ -63,23 +63,12 @@ __Existing Features__
     * The navigation bar will turn into a toggler when the device is the size of a tablet or smaller.
         This will make it easier for users to navigate through the page, as well as visually more attractive on smaller devices.
 
-<h2 align="center">
-<img src="docs/screenshots/screenshot-navbar.png" alt="navbar" style="max-width:100%;">
-</h2>
-<h2 align="center">
-<img src="docs/screenshots/screenshot-navbar-toggle.png" alt="navbar toggler" style="max-width:100%;">
-</h2>
-
 <br>
 
 * __The Hero Image__
 
     * The Hero image includes a photo with a text overlay to provide the user with some extra motivation.
     * The Hero image section introduces the user to Dolly's Dojo with an energetic, motivating image to get their attention.
-
-<h2 align="center">
-<img src="docs/screenshots/screenshot-hero-image.png" alt="screenshot hero image" style="max-width:100%;">
-</h2>
 
 <br>
 
@@ -88,20 +77,12 @@ __Existing Features__
     * In the User Review section, the user will find the reviews of members who are frequent attenders of the gym and what they have experienced of Dolly's Dojo so far. 
     * The positive tones of the reviews will make the user awaken their own enthousiasm and courage to give Dolly's Dojo a try.
 
-<h2 align="center">
-<img src="docs/screenshots/screenshot-user-reviews.png" alt="user reviews" style="max-width:100%;">
-</h2>
-
 <br>
 
 * __The Footer__
 
     * The footer section includes links to the relevant social media sites for Dolly's Dojo. The links will open to a new tab to allow easy navigation for the user.
     * The footer is valuable to the user as it encourages them to keep connected via social media
-
-<h2 align="center">
-<img src="docs/screenshots/screenshot-footer.png" alt="footer" style="max-width:100%;">
-</h2>
 
 <br>
 
@@ -111,18 +92,6 @@ __Existing Features__
     * This way, the user can get a preview even before attending the gym itself. 
         It will give the user some inside information, which will help them encourage to join the gym.
 
-<h2 align="center">
-<img src="docs/screenshots/screenshot-classes-1.png" alt="classes text" style="max-width:100%;">
-</h2>
-
-<h2 align="center">
-<img src="docs/screenshots/screenshot-classes-2.png" alt="classes part 1" style="max-width:100%;">
-</h2>
-
-<h2 align="center">
-<img src="docs/screenshots/screenshot-classes-3.png" alt="classes part 2" style="max-width:100%;">
-</h2>
-
 <br>
 
 * __Contact Page__
@@ -130,20 +99,12 @@ __Existing Features__
     * In the Contact Page, users can get in touch with Dolly's Dojo by filling out the contact form.
     * Users also have the oppportunity to sign up for the gym and become a member.
 
-<h2 align="center">
-<img src="docs/screenshots/screenshot-contact.png" alt="contact page" style="max-width:100%;">
-</h2>
-
 <br>
 
 * __Login Page__
 
     * The Login page exists for users who are already members of Dolly's Dojo. By clicking on the orange button in the navigation bar, they will be directed to this page.
     Once they filled out their information, they will be redirected to the home page.
-
-<h2 align="center">
-<img src="docs/screenshots/screenshot-login.png" alt="login page" style="max-width:100%;">
-</h2>
 
 <br>
 
@@ -189,8 +150,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 * [W3C Markup Validator](https://validator.w3.org/ "markup-validator") - [Results](https://validator.w3.org/nu/#textarea "markup-validator-results")
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input "css-validator") - [Results](https://jigsaw.w3.org/css-validator/validator "css-validator-results")
 
-
-
+<br>
 
 ## Deployment
 
@@ -237,6 +197,9 @@ __Code__
 
 * The code structure for the project was inspired by the [Code Institute Mini Project: Love Running](https://github.com/Code-Institute-Solutions/Love-Running-Solutions "Love Running Mini Project") and the [Code Institute Mini Bootstrap Project](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4 "Mini Bootstrap Project") for aesthetic preferences.
 * [Bootstrap 4.3:](https://getbootstrap.com/docs/4.3/getting-started/introduction/ "Bootstrap4.3") Bootstrap was used to make the site responsive using the Grid, Form, Navbar and Cards components, as well as making the button elements interactive.
+* [GitHub](https://github.com/etjossem/country-codes-html/blob/master/_country_codes.html "Bootstrap4.3")
+This page was used to create the dropdown menu for the country codes in the Contact Page form.
+This way, users can select their countries and insert their respective phone numbers.
 
 <br>
 

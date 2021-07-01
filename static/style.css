@@ -7,11 +7,17 @@ body {
     color: #4d4d4d;
 }
 
-/*--------------------Heading */
-
-header {
-    margin: 0;
+.contact-button {
+    background-color: #000066;
+    border-color: #000066;
 }
+
+hr {
+    color: rgb(255, 117, 26)
+    border: 1px solid;
+}
+
+/*--------------------Heading */
 
 .heading {
     font-family: Anton;
@@ -19,6 +25,7 @@ header {
     letter-spacing: 1px;
     font-weight: 600;
     font-size: 250%;
+    margin-left: 20px; 
     margin-bottom: 10px;
     color: #000066;
 }
@@ -67,7 +74,6 @@ header {
 
 }
 
-
 /*--------------------User Reviews */
 
 h2 {
@@ -100,15 +106,23 @@ h5 {
 }
 
 
-/*--------------------Social Links */
+/*--------------------Footer */
 
-footer {
-    height: 85px;
+.row p {
+    color: #000066;
+    text-align: center;
+}
+
+.copyright p {
+    font-size: 90%;
 }
 
 .social-links {
     text-align: center;
+}
 
+.social-links ul {
+    padding-left: 0px;
 }
 
 .social-links li {
@@ -118,14 +132,12 @@ footer {
 .social-links i {
     font-size: 160%;
     margin: 1%;
-    padding: 5%;
     color: #000066;
 }
 
-
 /*--------------------Contact Page */
 
-.join-text {
+.contact-text {
     font-weight: 500;
     text-align: center;
     color: #000066;
@@ -142,10 +154,6 @@ form {
 label {
     color: #000066;
     font-weight: 500;
-}
-
-.signup-button {
-    background-color: #000066;
 }
 
 /*--------------------Classes Page */
@@ -165,18 +173,6 @@ label {
     font-weight: 700;
 }
 
-/*--------------------Login Button */
-
-.login-button {
-    background-color: rgb(255, 117, 26);
-}
-
-.login-button:hover {
-    background-color: #e6e6e6;
-    color: #000;
-}
-
-
 /*--------------------Media Query for cover text */
 /*--------------------Media Query for cover text on tablet sized devices and smaller */
 
@@ -184,5 +180,4 @@ label {
     #cover-text {
         display: none;
     }
-
 }
