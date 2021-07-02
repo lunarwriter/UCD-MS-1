@@ -4,56 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie-edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
         type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
         integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
-    <link rel="stylesheet" href="static/style.css" type="text/css" />
+    <link rel="stylesheet" href="static/css/style.css" type="text/css" />
     <title>Dolly's Dojo</title>
 </head>
 
 <body>
-    <header>
-
-        <!---Title-->
-        <div class="row">
-            <div class="col-6">
-                <div class="row bg-color-title">
-                    <div class="col heading">
-                        <h1 class="title">Dolly's Dojo</h1>
-                    </div>
-                </div>
-                <div class="col"></div>
-            </div>
-
-            <!--Navigation Bar-->
-            <div class="col">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
-                        data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="classes.html">Classes</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
+    <!--Title and Navigation Bar-->
+    <nav class="navbar navbar-expand-sm sticky-top navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Dolly's Dojo</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbar1">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar1">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="classes.html">Classes</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </header>
-
-    <hr>
+    </nav>
 
     <!--Hero Image-->
     <section id="hero-outer">
@@ -72,7 +54,7 @@
     <section id="user-reviews">
         <h2>Why choose for Dolly's Dojo?</h2>
         <br>
-        <h5>That is quite simple. Dolly's Dojo is for everyone, and it is accessible everywhere.
+        <h5 class="join-text">That is quite simple. Dolly's Dojo is for everyone, and it is accessible everywhere.
             <br>
             At Dolly's Dojo, we make sure you can get fit and reach the goal you have set for yourself.
             <br>
@@ -80,9 +62,10 @@
             body, we are here to cater to you!
         </h5>
         <br>
-        <h5>
+        <h5 class="join-text">
             Not quite convinced about signing up with us just yet? Read more about us from our members down below!
         </h5>
+
         <br>
 
         <div class="card-group">
@@ -123,7 +106,7 @@
         </div>
     </section>
 
-    <hr>
+    <hr class="hr-footer">
 
     <!--Footer Bar: Social Links-->
     <footer>

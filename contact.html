@@ -8,52 +8,36 @@
         type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
         integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
-    <link rel="stylesheet" href="static/style.css" type="text/css" />
+    <link rel="stylesheet" href="static/css/style.css" type="text/css" />
     <title>Dolly's Dojo</title>
 </head>
 
 <body>
-    <header>
 
-        <!---Title-->
-        <div class="row">
-            <div class="col-6">
-                <div class="row bg-color-title">
-                    <div class="col heading">
-                        <h1 class="title">Dolly's Dojo</h1>
-                    </div>
-                </div>
-                <div class="col"></div>
-            </div>
+    <!--Title and Navigation Bar-->
 
-            <!--Navigation Bar-->
-            <div class="col">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
-                        data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="classes.html">Classes</a>
-                            </li>
-                            <li class="nav-item active">
-                                <a class="nav-link" href="contact.html">Contact<span
-                                        class="sr-only">(current)</span></a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
+    <nav class="navbar navbar-expand-sm sticky-top navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Dolly's Dojo</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbar1">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar1">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="classes.html">Classes</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contact.html">Contact Us<span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </header>
-
-    <hr>
+    </nav>
 
     <section>
         <h2 class="contact-text">
@@ -67,36 +51,42 @@
             <div class="form-row was-validated">
                 <div class="col-md-6 mb-3">
                     <label for="validationDefault01">First name</label>
-                    <input type="text" class="form-control" id="validationDefault01" placeholder="First name" required>
+                    <input type="text" class="form-control" name="fname" id="validationDefault01"
+                        placeholder="First name" required>
                 </div>
                 <div class="col-md-6 mb-3">
                     <label for="validationDefault02">Last name</label>
-                    <input type="text" class="form-control" id="validationDefault02" placeholder="Last name" required>
+                    <input type="text" class="form-control" name="lname" id="validationDefault02"
+                        placeholder="Last name" required>
                 </div>
             </div>
             <div class="form-row was-validated">
                 <div class="col-md-6 mb-3">
                     <label for="validationDefault03">Address</label>
-                    <input type="text" class="form-control" id="validationDefault03" placeholder="Address" required>
+                    <input type="text" class="form-control" name="address" id="validationDefault03"
+                        placeholder="Address" required>
                 </div>
                 <div class="col-md-3 mb-3">
                     <label for="validationDefault04">City</label>
-                    <input type="text" class="form-control" id="validationDefault04" placeholder="City" required>
+                    <input type="text" class="form-control" name="city" id="validationDefault04" placeholder="City"
+                        required>
                 </div>
                 <div class="col-md-3 mb-3">
                     <label for="validationDefault05">Zip</label>
-                    <input type="text" class="form-control" id="validationDefault05" placeholder="Zip" required>
+                    <input type="text" class="form-control" name="zip" id="validationDefault05" placeholder="Zip"
+                        required>
                 </div>
             </div>
             <div class="form-row was-validated">
                 <div class="col-md-6 mb-3">
                     <label for="validationDefault06">Email</label>
-                    <input type="email" class="form-control" id="validationDefault06" placeholder="Email" required>
+                    <input type="email" class="form-control" name="email" id="validationDefault06" placeholder="Email"
+                        required>
                 </div>
                 <!--Select phone number by country-->
                 <div class="col-md-3 mb-3">
                     <label for="validationDefault07">Country</label>
-                    <select id="validationDefault07">
+                    <select id="validationDefault07" name="country">
                         <option data-countryCode="US" value="1" selected>USA (+1)</option>
                         <option data-countryCode="GB" value="44">UK (+44)</option>
                         <option data-countryCode="DZ" value="213">Algeria (+213)</option>
@@ -312,23 +302,21 @@
                 </div>
                 <div class="col-md-3 mb-3">
                     <label for="validationDefault06">Phone Number</label>
-                    <input type="tel" class="form-control" id="validationDefault08" placeholder="Phone Number" required>
+                    <input type="tel" class="form-control" name="phonenr" id="validationDefault08"
+                        placeholder="Phone Number" required>
                 </div>
             </div>
-            <div class="form-row was-validated">
+            <div class="form-row">
                 <div class="col-12 mb-3">
                     <label for="validationTextarea">Textarea</label>
-                    <textarea class="form-control is-invalid" id="validationTextarea"
-                        placeholder="Required example textarea" required></textarea>
-                    <div class="invalid-feedback">
-                        Please enter a message in the textarea.
-                    </div>
+                    <textarea class="form-control" id="validationTextarea" placeholder="Some text"></textarea>
                 </div>
-                <button class="btn btn-primary contact-button" type="submit">Contact Us!</button>
+            </div>
+            <button class="btn btn-primary contact-button" type="submit">Contact Us!</button>
         </form>
     </section>
 
-    <hr>
+    <hr class="hr-footer">
 
     <!--Footer Bar: Website name, Copyright and Social Linkss-->
     <footer>
