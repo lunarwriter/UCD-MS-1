@@ -233,7 +233,8 @@ hr {
 #thanks {
     font-family: Anton;
     color: #000066;
-    padding: 10rem 5rem;
+    padding-top: 17.5rem;
+    padding-bottom: 19rem;
     text-align: center;
 }
 
@@ -243,6 +244,11 @@ hr {
 @media screen and (max-width: 943px) {
     #cover-text {
         display: none;
+    }
+
+    #thanks {
+        padding-top: 50%;
+        padding-bottom: 50%;
     }
 }
 
@@ -256,5 +262,14 @@ hr {
         border-top:3px solid rgb(255, 117, 26);
         margin-bottom: 1rem;
         margin-top: -1rem;
+    }
+
+    #thanks {
+        padding-top: 40%;
+        padding-bottom: 47%;
+    }
+
+    #thanks h1 {
+        font-size: 165%;
     }
 }
