@@ -16,9 +16,6 @@ Existing members that are already familiar with the procedures can log in and ke
 
 ## User Experience (UX)
 
-
-<br>
-
 * ### User Stories
 
     * __First Time Visitor Goals__
@@ -31,9 +28,6 @@ Existing members that are already familiar with the procedures can log in and ke
 
         1. As a Returning Visitor, I want to find information about the gym classes and schedules.
         2. As a Returning Visitor, I want to be able to contact the gym easily and in the best way possible.
-        3. As a Returning Visitor, I want to be able to easily log in to my account.
-
-<br>
 
 * ### Design
 
@@ -50,7 +44,6 @@ Existing members that are already familiar with the procedures can log in and ke
         * The imagery is essential. The large hero image on the homepage is designed to appear both eye-catching, motivating and purposeful.
 
 <br>
-
 
 ## Features
 
@@ -116,6 +109,17 @@ By adding this feature, users can get appropriate and safe fitness gear to atten
 * Another feature that could improve the website is adding online group classes.
 By adding this feature, users can attend the gym from their own home and stay as fit as ever. The users could attend a virtual class with instructors giving live classes.
 
+* A third feature for improvement is a login page for existing members to get access to their own account. 
+
+<br>
+
+## Wireframes
+
+* [Home Page](https://github.com/lunarwriter/UCD-MS-1/blob/master/docs/wireframes/homepage-wireframe.PNG "homepage wireframe")
+* [Classes Page](https://github.com/lunarwriter/UCD-MS-1/blob/master/docs/wireframes/classes-wireframe.PNG "classes wireframe")
+* [Contact Us Page](https://github.com/lunarwriter/UCD-MS-1/blob/master/docs/wireframes/contact-page-wireframe.PNG "contact wireframe")
+* [Mobile Wireframe](https://github.com/lunarwriter/UCD-MS-1/blob/master/docs/wireframes/mobile-wireframe.PNG "mobile wireframe")
+
 <br>
 
 ##  Technologies Used
@@ -124,6 +128,18 @@ By adding this feature, users can attend the gym from their own home and stay as
 
 * [HTML5](http://en.wikipedia.org/wiki/html5 "HTML5")
 * [CSS3](http://en.wikipedia.org/wiki/css3 "CSS3")
+
+<br>
+
+### Devices and Screen Sizes
+
+The website was extensively tested to make sure every aspect became responsive to the screen size of the devices.
+The browsers that were used for testing are: Microsoft Edge, Google Chrome and Mozilla Firefox.
+
+* Laptop with HiDPI screen: 1440x900
+* iPad: 768x1024
+* iPhone 6/7/8 Plus iOS 11: 414x736
+* Samsung Galaxy S9/S9+: 360x740
 
 <br>
 
@@ -140,6 +156,8 @@ By adding this feature, users can attend the gym from their own home and stay as
     * Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 6. [GitHub:](http://github.com/ "GitHub")
     * GitHub is used to store the projects code after being pushed from Git.
+7. [Mockplus:](https://www.mockplus.com/ "Mockplus")
+    * Mockplus was used to create the wireframes for the website.
 
 <br>
 
@@ -152,7 +170,99 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 <br>
 
+__Testing User Stories from User Experience (UX) Section__
+
+* __First Time Visitor Goals__
+
+    1. As a First Time Visitor, I want to be able to navigate through the website with ease to find the content.
+
+        * The site has been designed to be fluid. The navigation bar is sticky, therefore it will scroll down along with the scrollbar as the user finds out more about the page. They will be able to get to the desired page within seconds, at any given moment.
+        * On the Contact Us page, after the form is submitted, the user will find themselves on a new page with a message. The navigation bar is still present and they can get back to any page by clicking on the link.
+
+    <h2 align="center">
+    <img src="docs/screenshots/navigation-bar.PNG" alt="navbar" style="max-width:100%;">
+    </h2>
+    
+    2. As a First Time Visitor, I want to understand the main purpose of the website and learn more about the gym and its message.
+
+        * When entering the site, users are greeted with a clean and easily readable navigation bar to get to the page of their choice. Underneath the navigation bar users will find the hero image with a text overlay “Dolly’s Dojo – The gym for everyone!”.
+        * The main purpose of the website is immediately found within the hero image and text overlay.
+        * The user has to either scroll down the page to find out more about the website, or use the navigation bar and click on the pages they want to see.
+
+    <h2 align="center">
+    <img src="docs/screenshots/hero-image-text-overlay.PNG" alt="hero image" style="max-width:100%;">
+    </h2>
+
+    3. As a First Time Visitor, I want to know what other people’s previous experiences are of attending this gym and to easily find social links to keep up to date with news about the gym.
+
+        * On the homepage, if users scroll down below the hero image, they will find a section with User Reviews. In this section, users can find out what people’s previous experiences with this gym are, and determine whether they would like to find out more.
+        * On the right bottom of each page, the user will find some links for social media platforms that the gym is making use of.
+        * The social media include Facebook, Instagram, Twitter and Youtube accounts for the gym.
+        * The social links will open up in a new tab, so users can easily get back to the page for the gym.
+    
+    <h2 align="center">
+    <img src="docs/screenshots/user-reviews.PNG" alt="footer" style="max-width:100%;">
+    </h2>
+    
+    <h2 align="center">
+    <img src="docs/screenshots/footer.PNG" alt="footer" style="max-width:100%;">
+    </h2>
+
+<br>
+
+* __Returning Visitor Goals__
+
+    1. As a Returning Visitor, I want to find information about the gym classes and schedules.
+
+        * If the user clicks on the Classes in the navigation bar, they will be directed to a page where the gym's group classes are viewed.
+        * Users can find out more about the gym and the procedures for the classes.
+        * If the user scroll down, they will find six images with the class names and information about the classes.
+
+    <h2 align="center">
+    <img src="docs/screenshots/classes-text.PNG" alt="footer" style="max-width:100%;">
+    </h2>
+
+    <h2 align="center">
+    <img src="docs/screenshots/classes-1.PNG" alt="footer" style="max-width:100%;">
+    </h2>
+
+    <h2 align="center">
+    <img src="docs/screenshots/classes-2.PNG" alt="footer" style="max-width:100%;">
+    </h2>
+
+    2.  As a Returning Visitor, I want to be able to contact the gym easily and in the best way possible.
+
+        * The navigation bar highlights the Contact Page.
+        * On the Contact Page, users can fill out a form to get in touch with the gym. This way, they will have more direct communication with the creators of the gym and have more opportunity to get information.
+        * On the bottom of each page, the user will find the footer bar where a website and the links for social platform accounts can be found. Users can also contact the gym by means of social media.
+
+    <h2 align="center">
+    <img src="docs/screenshots/contact-page.PNG" alt="footer" style="max-width:100%;">
+    </h2>
+
+<br>
+
+## Known Bugs
+
+*   The dropdown menu for selecting the Country code in the Contact Page form does not reduce in size when the website is viewed on tablet-sized or mobile devices. 
+    * As a result, the dropdown stretches out behind the field for Phone number.
+*   When the website is viewed in Microsoft Edge, the social links in the footer only turn orange (hover colour) when clicked on.
+
+<br>
+
 ## Deployment
+
+__Running the website from GitPod__
+
+1.	Log in to GitHub and locate the GitHub [Repository](https://github.com/lunarwriter/UCD-MS-1 "github pages repository")
+2.	On the right of the Repository name, click on the green “GitPod” button.
+3.	Log in to GitPod and open the workspace with the same name as the repository.
+4.	In the second column from the left, select the file to open the project.
+5.	In the terminal (below the console), type: `python3 -m http.server`
+6.	A popup will appear for action on port 8000. Click on the blue button for “Make Public”.
+7.	Click on the second blue button “Open Browser” to open a preview of the website.
+
+<br>
 
 __GitHub Pages__
 
