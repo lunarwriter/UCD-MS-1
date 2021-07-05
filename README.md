@@ -33,7 +33,7 @@ Existing members that are already familiar with the procedures can log in and ke
 
     * __Colour Scheme__
 
-        * The main colours used are dark navy blue, slate gray, and white.
+        * The main colours used are dark navy blue, orange, and white.
 
     * __Typography__
 
@@ -74,8 +74,12 @@ __Existing Features__
 
 * __The Footer__
 
-    * The footer section includes links to the relevant social media sites for Dolly's Dojo. The links will open to a new tab to allow easy navigation for the user.
-    * The footer is valuable to the user as it encourages them to keep connected via social media
+    * The footer section consists of three items: the name of the website, the copyright and links to the relevant social media sites for Dolly's Dojo. 
+        The links will open to a new tab to allow easy navigation for the user.
+    * The footer is valuable to the user as it encourages them to keep connected via social media.
+    * The footer contains the same design as the navigation bar. It gives the user a sense of consistency and aethetic.
+    * When viewed on tablet sized devices or smaller, the footer will collapse and stack the website, copyright and the social links on each other.
+        This way, there is no overlap between the items and the user will still have a neat overview of the footer items.
 
 <br>
 
@@ -90,14 +94,15 @@ __Existing Features__
 * __Contact Page__
 
     * In the Contact Page, users can get in touch with Dolly's Dojo by filling out the contact form.
-    * Users also have the oppportunity to sign up for the gym and become a member.
+    * The users will find they have to fill in every aspect (except for the comments area) to submit the form.
+        This is to prevent submitting an empty form.
+    * Once the form is filled in and the user clicks on the "Contact Us!" button, the user will be directed to a page with a feedback message.
+    * When viewed on mobile devices, the input fields are designed to reduce in length but still be long enough for the user to fill in.
+    
+ * __Thanks Page__
 
-<br>
-
-* __Login Page__
-
-    * The Login page exists for users who are already members of Dolly's Dojo. By clicking on the orange button in the navigation bar, they will be directed to this page.
-    Once they filled out their information, they will be redirected to the home page.
+    * Once the user submits a Contact form, they will be directed to a page with a nice and clear thank you message.
+    * This will give the user both a satisfying feeling of successfully filling in the form, and give them feedback on their actions.
 
 <br>
 
@@ -131,18 +136,6 @@ By adding this feature, users can attend the gym from their own home and stay as
 
 <br>
 
-### Devices and Screen Sizes
-
-The website was extensively tested to make sure every aspect became responsive to the screen size of the devices.
-The browsers that were used for testing are: Microsoft Edge, Google Chrome and Mozilla Firefox.
-
-* Laptop with HiDPI screen: 1440x900
-* iPad: 768x1024
-* iPhone 6/7/8 Plus iOS 11: 414x736
-* Samsung Galaxy S9/S9+: 360x740
-
-<br>
-
 ### Frameworks, Libraries and Programs Used
 1. [Bootstrap 4.3:](https://getbootstrap.com/docs/4.3/getting-started/introduction/ "Bootstrap4.3")
     * Bootstrap was used to assist with responsiveness and styling of the website.
@@ -167,6 +160,19 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 * [W3C Markup Validator](https://validator.w3.org/ "markup-validator") - [Results](https://validator.w3.org/nu/#textarea "markup-validator-results")
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input "css-validator") - [Results](https://jigsaw.w3.org/css-validator/validator "css-validator-results")
+
+<br>
+
+### Devices and Screen Sizes
+
+The website was extensively tested to make sure every aspect became responsive to the screen size of the devices.
+The browsers that were used for testing are: Microsoft Edge, Google Chrome and Mozilla Firefox.
+To test the website on different devices and different screen sized, the Chrome DevTools was used.
+
+* Laptop with HiDPI screen: 1440x900
+* iPad: 768x1024
+* iPhone 6/7/8 Plus iOS 11: 414x736
+* Samsung Galaxy S9/S9+: 360x740
 
 <br>
 
@@ -235,6 +241,8 @@ __Testing User Stories from User Experience (UX) Section__
         * The navigation bar highlights the Contact Page.
         * On the Contact Page, users can fill out a form to get in touch with the gym. This way, they will have more direct communication with the creators of the gym and have more opportunity to get information.
         * On the bottom of each page, the user will find the footer bar where a website and the links for social platform accounts can be found. Users can also contact the gym by means of social media.
+        * Once users submit the Contact form, they are greeted with a nice and clean thank you message as a confirmation.
+        * After submitting, users can choose to navigate through the website once again, by clicking the links on the navigation bar.
 
     <h2 align="center">
     <img src="docs/screenshots/contact-page.PNG" alt="footer" style="max-width:100%;">
@@ -244,9 +252,17 @@ __Testing User Stories from User Experience (UX) Section__
 
 ## Known Bugs
 
-*   The dropdown menu for selecting the Country code in the Contact Page form does not reduce in size when the website is viewed on tablet-sized or mobile devices. 
-    * As a result, the dropdown stretches out behind the field for Phone number.
-*   When the website is viewed in Microsoft Edge, the social links in the footer only turn orange (hover colour) when clicked on.
+* In the Contact form, when the user picks a country code for their mobile phone number, the country name does not reduce in size when viewed on mobile devices.
+The validation check mark will appear right over the name of the country, making it slightly less legible.
+
+<br>
+
+## Fixed Bugs
+
+* When the Contact Us button in the Contact form is submitted, the user would be directed to the Contact page once again. 
+This is fixed and the user will now be directed to a page with a feedback message.
+* The input field for the Mobile phone number in the Contact form had two separate fields, one for selecting country dialling code and one for entering the digits. 
+This has been fixed and they are now merged into one field where the user can choose their country code and enter their phone digits.
 
 <br>
 
@@ -325,4 +341,3 @@ __Media__
 
 * The hero image and the user review images were taken from [Pexels](https://pexels.com/ "pexels credits")
 * The images for the classes were taken from [Unsplash](https://unsplash.com/s/photos/ "unsplash credits")
-
