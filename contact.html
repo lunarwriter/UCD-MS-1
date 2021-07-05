@@ -78,13 +78,15 @@
                 </div>
             </div>
             <div class="form-row was-validated">
-                <div class="col-md-6 mb-3">
+                <div class="col-md-12 mb-3">
                     <label for="validationDefault06">Email</label>
                     <input type="email" class="form-control" name="email" id="validationDefault06" placeholder="Email"
                         required>
                 </div>
+            </div>
+            <div class="form-row was-validated">
                 <!--Select phone number by country-->
-                <div class="col-md-3 mb-3">
+                <div class="col-md-6 mb-3">
                     <label for="validationDefault07">Country</label>
                     <select id="validationDefault07" name="country">
                         <option data-countryCode="US" value="1" selected>USA (+1)</option>
@@ -308,11 +310,13 @@
             </div>
             <div class="form-row">
                 <div class="col-12 mb-3">
-                    <label for="validationTextarea">Textarea</label>
+                    <label for="validationTextarea">Leave a comment!</label>
                     <textarea class="form-control" id="validationTextarea" placeholder="Some text"></textarea>
                 </div>
             </div>
-            <a class="btn btn-primary" href="thanks.html" role="button">Contact Us!</a>
+            <a href="thanks">
+                <button class="btn btn-primary" type="submit">Contact Us!</button>
+            </a>
         </form>
     </section>
 

@@ -228,7 +228,7 @@ hr {
     margin-bottom: 0px;
 }
 
-/*--------------------hr lines  */
+/*--------------------Thanks Page */
 
 #thanks {
     font-family: Anton;
@@ -258,10 +258,19 @@ hr {
         font-size: 200%;
     }
 
-    .hr-footer {
-        border-top:3px solid rgb(255, 117, 26);
-        margin-bottom: 1rem;
-        margin-top: -1rem;
+    .form-row {
+        margin-left: -80px;
+        margin-right: -80px;
+    }
+
+     .hr-footer {
+        margin: 0;
+        padding: 0;
+    }
+
+    .btn-primary {
+        margin-left: -75px;
+        margin-right: -80px;
     }
 
     #thanks {

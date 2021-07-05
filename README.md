@@ -9,7 +9,7 @@ Dolly's Dojo is a website that is designed for people who are interested in tryi
 Existing members that are already familiar with the procedures can log in and keep their fitness journey up to date.
 
 <h2 align="center">
-<img src="docs/screenshots/Screenshot-Homepage.png" alt="homepage" style="max-width:100%;">
+<img src="docs/screenshots/screenshot-homepage.PNG" alt="homepage" style="max-width:100%;">
 </h2>
 
 <br>
